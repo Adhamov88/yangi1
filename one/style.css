@@ -1,0 +1,147 @@
+@font-face {
+  font-family: inter;
+  src: url();
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.site {
+  width: 100%;
+  background-image: url(./images/orqa_foncziq.png);
+  background-color: black;
+  height: 100vh;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  display: grid;
+}
+.site > .navbar {
+  position: relative;
+  justify-self: center;
+  width: 90%;
+  height: 110px;
+  align-items: center;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 10% 60%;
+}
+.site > .navbar > .logo {
+  width: 197px;
+  height: 83.8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.site > .navbar > .logo > .logop {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 45% 45%;
+}
+.site > .navbar > .logo > .logop > p {
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+.site > .navbar > .ul_nav {
+  height: 83.8px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  list-style: none;
+  justify-content: space-around;
+}
+.site > .navbar > .ul_nav > li > a {
+  text-decoration: none;
+  color: #fff;
+}
+.site > .showcase {
+  width: 80%;
+  height: auto;
+  display: grid;
+  align-items: center;
+  box-sizing: border-box;
+  justify-self: center;
+}
+.site > .showcase > .p1 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.site > .showcase > .p1 > p {
+  height: 400px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 550px;
+  width: 80%;
+}
+.site > .showcase > .p1 > p > span {
+  height: 400px;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  font-size: 600px;
+  width: 400px;
+  padding-bottom: 3rem;
+  padding-left: 1.5rem;
+}
+.site > .showcase #woop {
+  width: 310px;
+  height: 97px;
+  font-size: 80px;
+  justify-self: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  color: rgb(245, 245, 245);
+}
+.site > .showcase #oh {
+  width: 772px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  font-size: 30px;
+  color: rgb(255, 219, 187);
+}
+.site > .showcase > button {
+  width: 444px;
+  border: none;
+  justify-self: center;
+  height: 58px;
+  margin-top: 1r/em;
+  background: #728BAD;
+  border-radius: 42px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #F5F5F5;
+}
+.site #otin {
+  height: 99vh;
+  width: 908px;
+  position: absolute;
+}
+@media (max-width: 1080px) {
+  .site #otin {
+    width: 60%;
+    height: 90vh;
+  }
+  .site .site {
+    width: 90%;
+    height: 99vh;
+  }
+}/*# sourceMappingURL=style.css.map */
